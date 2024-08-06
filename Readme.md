@@ -37,8 +37,9 @@
 
 ### 중요도 ⭐️⭐️⭐️⭐️⭐️
 
-- [호이스팅(hoisting)이란?]() - 호이스팅에 대해서 설명해주세요.
-- [클로저(Closure)란?]() - 클로저에 대해서 설명해주세요.
+- [호이스팅(hoisting)이란?](https://github.com/hotcream3904/Frontend-Interview-Questions-Study/blob/main/JS/hoisting.md) - 호이스팅에 대해서 설명해주세요.
+- [this란?](https://github.com/hotcream3904/Frontend-Interview-Questions-Study/blob/main/JS/this.md) - javascript의 this에 대해서 설명해주세요.
+- [Event Loop란?](https://github.com/hotcream3904/Frontend-Interview-Questions-Study/blob/main/JS/event-loop.md) - Event Loop에 대해서 설명해주세요.
 
 ### 중요도 ⭐️⭐️⭐️⭐️
 
@@ -55,10 +56,10 @@
 ## 2. CS, Network
 
 ### 중요도 ⭐️⭐️⭐️⭐️⭐️
-- [브라우저의 렌더링 원리 혹은 홈페이지가 사용자에게 보이는 순서]() - 브라우저의 렌더링 원리에 대해 설명해주세요.
-- [Reflow와 Repaint가 실행되는 시점]() - Reflow와 Repaint가 실행되는 시점에 대해 말씀해주세요.
-- [주소창에 google.com을 입력하면 일어나는 일]() - 주소창에 google.com을 입력하면 일어나는 일에 대해 말씀해주세요.
-- [REST API란? 혹은 GET, POST가 어떻게 다른지]() - REST API란 무엇인지 설명해주세요.
+- [브라우저의 렌더링 원리 혹은 홈페이지가 사용자에게 보이는 순서](https://github.com/hotcream3904/Frontend-Interview-Questions-Study/blob/main/CS%2C%20Network/browser-rendering.md) - 브라우저의 렌더링 원리에 대해 설명해주세요.
+- [브라우저의 모든 저장공간](https://github.com/hotcream3904/Frontend-Interview-Questions-Study/blob/main/CS%2C%20Network/browser-storage.md) - 브라우저의 저장공간에 대해서 설명해주세요.
+- [Reflow와 Repaint](https://github.com/hotcream3904/Frontend-Interview-Questions-Study/blob/main/CS%2C%20Network/reflow-repaint.md) - Reflow와 Repaint가 실행되는 시점에 대해 말씀해주세요.
+- [주소창에 google.com을 입력하면 일어나는 일](https://github.com/hotcream3904/Frontend-Interview-Questions-Study/blob/main/CS%2C%20Network/what-happen-when-type-google.md) - 주소창에 google.com을 입력하면 일어나는 일에 대하여 간략하게 설명해주세요.
 ### 중요도 ⭐️⭐️⭐️⭐️
 
 
@@ -88,14 +89,17 @@
 
 ### 중요도 ⭐️⭐️⭐️⭐️⭐️
 
-- [CSS에서 margin과 padding이란?]() - CSS에서 margin과 padding에 대해서 설명해주세요.
 - [CSS에서 position이란?]() - CSS에서 position을 어떻게 사용하는지 설명해주세요.
+- [CSS에서 margin과 padding이란?]() - CSS에서 margin과 padding에 대해서 설명해주세요.
+
 
 ### 중요도 ⭐️⭐️⭐️⭐️
 
 
+
 ### 중요도 ⭐️⭐️⭐️
 
+- [DOCTYPE 에대해서]() - DOCTYPE이 무엇인지, meta태그와 요소에 대해서 아는대로 말해보세요.
 
 
 <br>
