@@ -17,15 +17,32 @@
 
 ## 3. HTTP/1.0과 HTTP/1.1 그리고 HTTP/2.0의 차이
 
--
+### 3.1 - http1.0과 1.1의 차이
+1. 커넥션 유지(Persistent Connection) : TCP 세션 기반에서 이루어지는 HTTP 프로토콜이 1.0에서는 요청 -> 응답 후 끊어지지만, 1.1에서는 여러개의 컨텐츠 요청이 가능해진다.
+<img width="1317" alt="스크린샷 2024-08-12 오후 5 19 03" src="https://github.com/user-attachments/assets/0a708aeb-db82-4fc1-a213-68fe6212f152">
+
+2. 파이프라이닝 : 현실적으로 클라이언트의 요청을 순서대로 처리할 수만 있다면 동시에 요청을 받아 각각의 응답을 서버에서 처리할 수 있는 파이프라이닝이 가능하다.
+<img width="1342" alt="스크린샷 2024-08-12 오후 5 21 35" src="https://github.com/user-attachments/assets/63d5dd31-6c5c-4267-bbc1-8d60f5e31166">
+
+3. 호스트 헤더 : 하나의 IP에 여러개의 도메인을 운영할 수 있다. 버츄얼 호스팅이라고도 한다.
+<img width="910" alt="스크린샷 2024-08-12 오후 5 34 14" src="https://github.com/user-attachments/assets/e1b82ec6-9458-4a3c-8711-62f81f27088a">
+
+4. 강력한 인증 절차 : proxy-authentication 과 proxy-authorization 2가지 헤더가 추가되어 기존의 www-authentication 헤더만 있을 때보다 보안이 강화되었다.
+
+### 3.2 - http1.1과 2.0의 차이
+
+
 
 ## 4. HTTPS와 HTTP의 차이
 
-- SSL/TLS 인증서를 받아 한층 보안을 높인 securty 차원에서의 차이이다.
+- `HTTPS(Hyper Text Transfer Protocol Secure)란?
+HyperText Transfer Protocol over Secure Socket Layer, HTTP over TLS, HTTP over SSL, HTTP Secure` 등으로 불리는 HTTPS는 HTTP에 데이터 암호화가 추가된 프로토콜이다. HTTPS는 HTTP와 다르게 443번 포트를 사용하며, 네트워크 상에서 중간에 제3자가 정보를 볼 수 없도록 암호화를 지원하고 있다.
 
 ## 5. [심화] 공개키 (비대칭키) 방식이 뭔가요?
 
 ## 참고
 
 - [마리월드 - 일단, HTTP 와 Web Socket에 대해 깊게 이해해보자! - (1)](https://mariii.hashnode.dev/spring-react)
+- [분도랑 - HTTP 1.0과 HTTP 1.1의 큰 차이점](https://withbundo.blogspot.com/2021/02/http-http-10-http-11.html)
+- [MangKyu's Diary:티스토리 - [Web] HTTP와 HTTPS의 개념 및 차이점](https://mangkyu.tistory.com/98)
 - [URL이란 무엇인가?](https://www.ascentkorea.com/what-is-url/)

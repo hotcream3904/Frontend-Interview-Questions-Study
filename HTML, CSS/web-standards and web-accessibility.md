@@ -9,12 +9,12 @@
 
 ## 1. HTML5 에서 추가된 내용과 시맨틱 태그에 대해 설명하세요.
 
-- HTML5에서는 시맨틱태그와, audio와 video 타입, input 요소의 새로운 타입들이 추가되었습니다. 또한 canvas나 svg같은 그래픽 및 시각적 요소와, 사용자의 위치 정보를 제공하는 geolocation api와 서버와의 양방향 통신을 위한 websocket api도 생겨났습니다. 흔히 쓰는 localstarage와 sessionstorage를 사용하여 클라이언트 측에서 데이터를 저장하는 api도 생겨났습니다.
-- 시맨틱(semantic)태그는 말 그대로 의미를 가진 태그로, 문서의 구조와 의미를 명확히 하기 위해 사용됩니다. 주로 쓰이는 시맨틱 태그로는 header, footer, main, section, article, nav 등이 있습니다.
+- HTML5에서는 시맨틱태그와, audio와 video 타입, input 요소의 새로운 타입들이 추가되었습니다. 또한 `<canvas>`나 `<svg>`같은 그래픽 및 시각적 요소와, 사용자의 위치 정보를 제공하는 geolocation api와 서버와의 양방향 통신을 위한 websocket api도 생겨났습니다. 흔히 쓰는 localstarage와 sessionstorage를 사용하여 클라이언트 측에서 데이터를 저장하는 api도 생겨났습니다.
+- 시맨틱(semantic)태그는 말 그대로 의미를 가진 태그로, 문서의 구조와 의미를 명확히 하기 위해 사용됩니다. 주로 쓰이는 시맨틱 태그로는`<header>`, `<footer>`, `<main>`, `<section>`, `<article>`, `<nav>` 등이 있습니다.
 
 ## 2. 웹 접근성에 맞는 마크업 예시 몇가지 말해보세요.
 
-- 시맨틱태그 사용하여 nav, main, article, section 별로 분류하기, img나 input 태그에 alt 속성과 label 속성같은 대체 텍스트 넣기.
+- 시맨틱태그 사용하기,`<img>`나 `<input>` 태그에 alt 속성과 label 속성같은 대체 텍스트 넣기.
 
 ## 3. SEO란?
 
@@ -25,7 +25,7 @@
 
 ## 4. button 태그의 default type은 무엇인가?
 
-- default 타입은 submit으로, form 태그 내에서 작동한다면 button이 눌렸을 시 새로고침이 된다. 그렇기에 단순 버튼에는 type에 button을 명시해주는 것이 좋다.
+- default 타입은 submit으로, `<form>` 태그 내에서 작동한다면 `<button>`이 눌렸을 시 새로고침이 된다. 그렇기에 단순 버튼에는 type에 button을 명시해주는 것이 좋다.
 
 ## 5. 크로스 브라우징이란?
 
@@ -33,7 +33,7 @@
 
 ## 6. section 태그와 article 태그의 차이점
 
-- section은 주제별로 그룹을 구분할 때 쓰며, article은 주로 text의 본문이 포함된 좀 더 구체적인 구분에 쓰입니다. 예를들어 하나의 기사에서 간단 요약부분이 나오고 다음 문단부터 본문이 나온다면 article 내부에 section으로 구획을 나눌 수 있습니다. 논리적으로 흐름이 상관없는 것들을 구분지을때 div를 사용합니다.
+- `<section>`은 주제별로 그룹을 구분할 때 쓰며, `<article>`은 주로 text의 본문이 포함된 좀 더 구체적인 구분에 쓰입니다. 예를들어 하나의 기사에서 간단 요약부분이 나오고 다음 문단부터 본문이 나온다면 `<article>` 내부에 `<section>`으로 구획을 나눌 수 있습니다. 논리적으로 흐름이 상관없는 것들을 구분지을때 div를 사용합니다.
 
 
 ## 참고
