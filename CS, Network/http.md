@@ -40,6 +40,8 @@ HyperText Transfer Protocol over Secure Socket Layer, HTTP over TLS, HTTP over S
 
 ## 5. [심화] 공개키 (비대칭키) 방식이 뭔가요?
 
+공개키란 
+
 ## 참고
 
 - [마리월드 - 일단, HTTP 와 Web Socket에 대해 깊게 이해해보자! - (1)](https://mariii.hashnode.dev/spring-react)
